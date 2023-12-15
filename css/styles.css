@@ -21,6 +21,10 @@
   color: var(--main-color);
 }
 
+.big-icon{
+  font-size: xx-large;
+}
+
 /* Containers */
 #container {
   display: flex;
