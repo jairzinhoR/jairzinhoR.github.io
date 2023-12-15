@@ -1,72 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio JairzinhoR</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
-    <!-- Dev Icon Fonts-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <!-- CSS do Projeto-->
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Jairzinho Rocha</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- Dev Icon Fonts -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+  <!-- CSS do Projeto -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <main id="container">
-        <aside id="bio-container">
-            <h2> Jairzinho Rocha </h2>
-            <img id= "bio-image" src="img/profile.jpg" alt="Jairzinho Rocha">
-            <p> Oi, sou Jairzinho.  <span class="highlight">Cienstista de Dados e Sociólogo.</span></p>
-            <p id="welcome-text">Seja bem-vindo(a)!</p>
-            <ul id="social-container">
-                <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                <li><a href="#" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
-                <li><a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
-            </ul>
-            <div id="email-container">
-                <ion-icon name= "mail-outline"></ion-icon><a href="malito:jair.rochant@gmail.com"> jair.rochant@gmail.com</a>
-            </div>
-            </aside>
-        <section id="about-container">
-            <h1 id="name">Jairzinho Rocha</h1>
-            <p id="title"><span class = "highlight">Social Data Scientist</span></p>
-            <p class="description"> Sou graduado em Análise e Desenvolvimento de Sistemas (UNINABUCO), Especialista em Ciência de Dados (UPE) e Mestre em Sociologia (UFPE). Tenho interesse nos espaços de convergência entre as <span class = "highlight">ciências computacionais</span> e <span class = "highlight">humanas</span>, análise de dados e inteligência artificial.</p>
-            <p class="description"> Você já ouviu falar em Social Data Science? É área de atuação dedicada à aplicação de métodos e técnicas de Ciência de Dados para a análise de fenômenos sociais, culturais e políticos. Juntar tecnologias e imaginação sociológica pode dar muito certo. Vem comigo!</p>                
-            <a href="https://github.com/jairzinhoR" id="btn-projects"> <ion-icon name = "code-working-outline"></ion-icon><span>Ver Projetos</a>
-            <h2 id="skills-selection-title">Minhas Skills</h2>
-            <div id="skills-container">
-                <div class="skills-box">
-                    <p class="skills-title">Linguagens:</p>
-                    <img src="img/python.png" class="icon2">
-                    <img src="img/r.png" class="icon3"> 
-                    <img src="img/sql.png" class="icon3">
-                </div> 
-                <div class="skills-box">
-                    <p class="skills-title">Ambientes de Desenvolvimento:</p>
-                    <img src="img/colab.png" class="icon3"> 
-                    <img src="img/jupyter.webp" class="icon2"> 
-                    <img src="img/rstudio2.png" class="icon3">
-                </div>
-                <div class="skills-box">
-                    <p class="skills-title">Bibliotecas e Frameworks:</p> 
-                    <img src="img/pandas.jpg" class="icon4"> 
-                    <img src="img/numpy.png" class="icon4"> 
-                    <img src="img/matplotlib.svg" class="icon4">
-                    <img src="img/seaborn.png" class="icon3"> 
-                    <img src="img/scikit-learn.png" class="icon4">
-                </div> 
-                <div class="skills-box">
-                    <p class="skills-title">Outras Tecnologias:</p>
-                    <img src="img/git.png" class="icon3"> 
-                    <img src="img/powerbi.png" class="icon4">
-                    <img src="img/excel.png" class="icon2"> 
-                    <img src="img/spss.png" class="icon2"> 
-                </div>
-        </section>
-        <!--Io Icons-->
-    </main>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <main id="container">
+    <aside id="bio-container">
+      <h2>Jairzinho Rocha</h2>
+      <img id="bio-image" src="img/profile.jpg" alt="Jairzinho Rocha">
+      <p>Oi, sou Jairzinho,<br> <span class="highlight">Cientista de Dados e Sociólogo.</span></p>
+      <p id="welcome-text">Seja bem-vindos(as)!</p>
+      <ul id="social-container">
+        <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        <li><a href="#" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+        <li><a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+      </ul>
+      <div id="email-container">
+        <ion-icon name="mail-outline"></ion-icon><a href="mailto:jair.rochant@gmail.com">jair.rochant@gmail.com</a>
+      </div>
+    </aside>
+    <section id="about-container">
+      <h1 id="name">Jairzinho Rocha</h1>
+      <p id="title"><span class="highlight">Cientista de Dados Sociais</span></p>
+      <p class="description"> Sou graduado em Análise e Desenvolvimento de Sistemas (UNINABUCO), Especialista em Ciência de Dados (UPE) e Mestre em Sociologia (UFPE). Tenho interesse nos espaços de convergência entre as <span class = "highlight">ciências computacionais</span> e <span class = "highlight">humanas</span>, análise de dados e inteligência artificial.</p>
+      <p class="description"> Você já ouviu falar em Social Data Science? É área de atuação dedicada à aplicação de métodos e técnicas de Ciência de Dados para a análise de fenômenos sociais, culturais e políticos. Juntar tecnologias e imaginação sociológica pode dar muito certo. Vem comigo!</p>      
+      <br>
+      <h2 id="skills-section-title">Minhas Skills</h2>
+      <div id="skills-container">
+        <div class="skills-box">
+          <p class="skills-title">Linguagens</p>
+          <p> Python, R, SQL </p>
+        </div>
+        <div class="skills-box">
+          <p class="skills-title">Ambientes de Desenvolvimento</p>
+          <p> Google Colab, Jupyter Notebook, RStudio </p>
+        </div>
+        <div class="skills-box">
+          <p class="skills-title">Bibliotecas e Frameworks</p>
+          <p> Pandas, Numpy, Matplotlib, Seaborn, Scikit-Learn </p>
+        </div>
+        <div class="skills-box">
+          <p class="skills-title">Outras tecnologias</p>
+          <p> Git, Power BI, Excel, SPSS </p>
+        </div>
+      </div>
+      <div class="icons-container">
+        <img src="img/python.png" class="icon2">
+        <img src="img/r.png" class="icon3"> 
+        <img src="img/sql.png" class="icon3">
+        <img src="img/colab.png" class="icon3"> 
+        <img src="img/jupyter.webp" class="icon2"> 
+        <img src="img/rstudio2.png" class="icon3">
+        <img src="img/pandas.jpg" class="icon4"> 
+        <img src="img/numpy.png" class="icon4"> 
+        <img src="img/matplotlib.svg" class="icon4">
+        <img src="img/seaborn.png" class="icon3"> 
+        <img src="img/scikit-learn.png" class="icon4">
+        <img src="img/git.png" class="icon3"> 
+        <img src="img/powerbi.png" class="icon4">
+        <img src="img/excel.png" class="icon2"> 
+        <img src="img/spss.png" class="icon2">
+      </div>
+      <br>
+      <h2 id="projects-section-title">Meus Projetos</h2>
+      <div id="projects-container">
+        <div class="projects-box">
+          <p class="projects-title">📃📃 Encceja 2020 📃📃</p>
+          <p> Perfis dos participantes pernambucanos do Exame Nacional para Certificação de Competências de Jovens e Adultos (ENCCEJA) no ano de 2020. Trabalho realizado em parceria com <span class="highlight">Anne Kelly Ribeiro da Silva</span> e <span class="highlight">Misael Severino dos Santos Júnior.</span> Ver apresentação em <a href="https://app.powerbi.com/view?r=eyJrIjoiMDA0ZTRkNjMtZjA1NC00Y2YxLTkyY2QtM2FhMzljODE0MTk4IiwidCI6IjMxNjg0YjJjLTc0YTgtNDdmMS1iYThkLWQ1YmM2OWNkZDAwOCJ9&pageName=ReportSection18c432b067330d4b5ba1" target="_blank"><img src="img/powerbi.png" class="icon4" alt="Link para a apresentação Power BI"></a>.</p>
+          <a href="https://app.powerbi.com/view?r=eyJrIjoiMDA0ZTRkNjMtZjA1NC00Y2YxLTkyY2QtM2FhMzljODE0MTk4IiwidCI6IjMxNjg0YjJjLTc0YTgtNDdmMS1iYThkLWQ1YmM2OWNkZDAwOCJ9&pageName=ReportSection18c432b067330d4b5ba1" id="btn-projects" target="_blank">
+            <ion-icon name="logo-github"></ion-icon> <span>Ver no GitHub</span>
+          </a>
+        </div>
+        <div class="projects-box">
+          <p class="projects-title">🚲🚲 Seou Bike 🚲🚲</p>
+          <p> Através da investigação da base de dados “Seoul Bike Sharing Data Set” - Machine Learning UCI, buscamos identificar correlações e fazer previsões que permitam melhor conhecimento deste negócio e, assim, o seu melhor aproveitamento. </p>
+          <a href="https://app.powerbi.com/view?r=eyJrIjoiMDA0ZTRkNjMtZjA1NC00Y2YxLTkyY2QtM2FhMzljODE0MTk4IiwidCI6IjMxNjg0YjJjLTc0YTgtNDdmMS1iYThkLWQ1YmM2OWNkZDAwOCJ9&pageName=ReportSection18c432b067330d4b5ba1" id="btn-projects" target="_blank">
+            <ion-icon name="logo-github"></ion-icon> <span>Ver no GitHub</span>
+          </a>
+        </div>
+        <div class="projects-box">
+          <p class="projects-title">📊📊 Student Performance 📊📊</p>
+          <p>Relação entre desempenho escolar e fatores socioeconômicos: uma análise descritiva. Atividade da disciplina de Introdução à Ciência de Dados, da Especialização em Ciência de Dados e Analitycs do Programa de Pós-Graduação em Engenharia da Computação da Universidade Estadual de Pernambuco (UPE).</p>
+          <a href="https://app.powerbi.com/view?r=eyJrIjoiMDA0ZTRkNjMtZjA1NC00Y2YxLTkyY2QtM2FhMzljODE0MTk4IiwidCI6IjMxNjg0YjJjLTc0YTgtNDdmMS1iYThkLWQ1YmM2OWNkZDAwOCJ9&pageName=ReportSection18c432b067330d4b5ba1" id="btn-projects" target="_blank">
+            <ion-icon name="logo-github"></ion-icon> <span>Ver no GitHub</span>
+          </a>
+        </div>
+        <div class="projects-box">
+          <p class="projects-title">🚗🚗 Jair Car 🚗🚗</p>
+          <p> Projeto de banco de dados para a locadora de veículos "Jair Car", desenvolvido como requisito para conclusão do Curso de Banco de Dados (UNINABUCO). </p>
+          <a href="https://app.powerbi.com/view?r=eyJrIjoiMDA0ZTRkNjMtZjA1NC00Y2YxLTkyY2QtM2FhMzljODE0MTk4IiwidCI6IjMxNjg0YjJjLTc0YTgtNDdmMS1iYThkLWQ1YmM2OWNkZDAwOCJ9&pageName=ReportSection18c432b067330d4b5ba1" id="btn-projects" target="_blank">
+            <ion-icon name="logo-github"></ion-icon> <span>Ver no GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Ion Icons -->
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </body>
 </html>
